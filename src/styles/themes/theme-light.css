@@ -1,0 +1,330 @@
+:root[data-theme="light"] {
+  /*
+   |------------------------------------------------
+   | BRAND COLORS
+   |------------------------------------------------
+   */
+
+  --primary:
+    #132A8E;
+
+  --secondary:
+    #1E293B;
+
+  --accent:
+    #1BFF3C;
+
+  --tertiary:
+    #7C3AED;
+
+  --quaternary:
+    #06B6D4;
+
+  /*
+   |------------------------------------------------
+   | SURFACE COLORS
+   |------------------------------------------------
+   */
+
+  --background:
+    #09090B;
+
+  --surface:
+    #18181B;
+
+  --surface-secondary:
+    #27272A;
+
+  /*
+   |------------------------------------------------
+   | TYPOGRAPHY COLORS
+   |------------------------------------------------
+   */
+
+  --text-primary:
+    #FFFFFF;
+
+  --text-secondary:
+    #A1A1AA;
+
+  --text-muted:
+    #71717A;
+
+  /*
+   |------------------------------------------------
+   | FEEDBACK COLORS
+   |------------------------------------------------
+   */
+
+  --success:
+    #22c55e;
+
+  --warning:
+    #f59e0b;
+
+  --danger:
+    #EF4444;
+
+  --info:
+    #3B82F6;
+
+  /*
+   |------------------------------------------------
+   | BUTTON COLORS
+   |------------------------------------------------
+   */
+
+  --button-text:
+    {{BUTTON_TEXT_COLOR}};
+
+  /*
+   |------------------------------------------------
+   | FONT FAMILIES
+   |------------------------------------------------
+   */
+
+  --font-primary:
+    Roboto;
+
+  --font-secondary:
+    Russo One;
+
+  --font-mono:
+    JetBrains Mono;
+
+  /*
+   |------------------------------------------------
+   | H1
+   |------------------------------------------------
+   */
+
+  --h1-font-size:
+    48px;
+
+  --h1-line-height:
+    56px;
+
+  --h1-font-weight:
+    700;
+
+  --h1-letter-spacing:
+    0px;
+
+  /*
+   |------------------------------------------------
+   | H2
+   |------------------------------------------------
+   */
+
+  --h2-font-size:
+    40px;
+
+  --h2-line-height:
+    48px;
+
+  --h2-font-weight:
+    700;
+
+  --h2-letter-spacing:
+    0px;
+
+  /*
+   |------------------------------------------------
+   | H3
+   |------------------------------------------------
+   */
+
+  --h3-font-size:
+    {{H3_FONT_SIZE}};
+
+  --h3-line-height:
+    {{H3_LINE_HEIGHT}};
+
+  --h3-font-weight:
+    {{H3_FONT_WEIGHT}};
+
+  --h3-letter-spacing:
+    {{H3_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | H4
+   |------------------------------------------------
+   */
+
+  --h4-font-size:
+    {{H4_FONT_SIZE}};
+
+  --h4-line-height:
+    {{H4_LINE_HEIGHT}};
+
+  --h4-font-weight:
+    {{H4_FONT_WEIGHT}};
+
+  --h4-letter-spacing:
+    {{H4_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | H5
+   |------------------------------------------------
+   */
+
+  --h5-font-size:
+    {{H5_FONT_SIZE}};
+
+  --h5-line-height:
+    {{H5_LINE_HEIGHT}};
+
+  --h5-font-weight:
+    {{H5_FONT_WEIGHT}};
+
+  --h5-letter-spacing:
+    {{H5_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | H6
+   |------------------------------------------------
+   */
+
+  --h6-font-size:
+    {{H6_FONT_SIZE}};
+
+  --h6-line-height:
+    {{H6_LINE_HEIGHT}};
+
+  --h6-font-weight:
+    {{H6_FONT_WEIGHT}};
+
+  --h6-letter-spacing:
+    {{H6_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | BODY
+   |------------------------------------------------
+   */
+
+  --body-font-size:
+    {{BODY_FONT_SIZE}};
+
+  --body-line-height:
+    {{BODY_LINE_HEIGHT}};
+
+  --body-font-weight:
+    {{BODY_FONT_WEIGHT}};
+
+  --body-letter-spacing:
+    {{BODY_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | SMALL
+   |------------------------------------------------
+   */
+
+  --small-font-size:
+    {{SMALL_FONT_SIZE}};
+
+  --small-line-height:
+    {{SMALL_LINE_HEIGHT}};
+
+  --small-font-weight:
+    {{SMALL_FONT_WEIGHT}};
+
+  --small-letter-spacing:
+    {{SMALL_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | CAPTION
+   |------------------------------------------------
+   */
+
+  --caption-font-size:
+    {{CAPTION_FONT_SIZE}};
+
+  --caption-line-height:
+    {{CAPTION_LINE_HEIGHT}};
+
+  --caption-font-weight:
+    {{CAPTION_FONT_WEIGHT}};
+
+  --caption-letter-spacing:
+    {{CAPTION_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | BUTTON TYPOGRAPHY
+   |------------------------------------------------
+   */
+
+  --button-font-size:
+    {{BUTTON_FONT_SIZE}};
+
+  --button-line-height:
+    {{BUTTON_LINE_HEIGHT}};
+
+  --button-font-weight:
+    {{BUTTON_FONT_WEIGHT}};
+
+  --button-letter-spacing:
+    {{BUTTON_LETTER_SPACING}};
+
+  /*
+   |------------------------------------------------
+   | CODE TYPOGRAPHY
+   |------------------------------------------------
+   */
+
+  --code-font-size:
+    {{CODE_FONT_SIZE}};
+
+  --code-line-height:
+    {{CODE_LINE_HEIGHT}};
+
+  --code-font-weight:
+    {{CODE_FONT_WEIGHT}};
+
+  --code-letter-spacing:
+    {{CODE_LETTER_SPACING}};
+
+  /*
+ |------------------------------------------------
+ | RADIUS SYSTEM
+ |------------------------------------------------
+ */
+
+/* BUTTON */
+--radius-button:
+  30px 0 30px 0;
+
+/* CARD */
+--radius-card:
+  0 0 26px 0;
+
+/* INPUT */
+--radius-input:
+  10px;
+
+/* MODAL */
+--radius-modal:
+  24px 24px 0 0;
+
+/* CONTAINER */
+--radius-container:
+  32px;
+
+/* SIDEBAR */
+--radius-sidebar:
+  0 24px 24px 0;
+
+/* DROPDOWN */
+--radius-dropdown:
+  0 0 14px 14px;
+
+/* BADGE */
+--radius-badge:
+  999px;
+}
